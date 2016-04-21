@@ -1,5 +1,0 @@
--c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\fatfs -I..\FWlib\inc -I..\user -I..\user -I..\user\pic_codec -I..\IICLIB 
--I C:\Keil\ARM\RV31\INC 
--I C:\Keil\ARM\CMSIS\Include 
--I C:\Keil\ARM\Inc\ST\STM32F10x 
--DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD -DUSE_STM3210B_EVAL -o "..\Output\sbus.o" --omf_browse "..\Output\sbus.crf" --depend "..\Output\sbus.d" "..\user\sbus.c"
