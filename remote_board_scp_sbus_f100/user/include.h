@@ -4,8 +4,6 @@
 #include "stm32f10x.h"
 #include "stm32f10x_it.h"
 #include "sdcard.h"
-#include "ff.h"
-#include "diskio.h"
 #include "delay.h"
 #include <string.h>
 #include <stdio.h>

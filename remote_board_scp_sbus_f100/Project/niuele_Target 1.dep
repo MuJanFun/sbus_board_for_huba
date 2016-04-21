@@ -1,6 +1,6 @@
 Dependencies for Project 'niuele', Target 'Target 1': (DO NOT MODIFY !)
 F (..\user\stm32f10x_it.c)(0x51A06F36)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\fatfs -I..\FWlib\inc -I..\user -I..\user -I..\user\pic_codec -I..\IICLIB -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F10x -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD -DUSE_STM3210B_EVAL -o "..\Output\stm32f10x_it.o" --omf_browse "..\Output\stm32f10x_it.crf" --depend "..\Output\stm32f10x_it.d")
-I (..\user\include.h)(0x57161E57)
+I (..\user\include.h)(0x5718D1FB)
 I (..\user\stm32f10x.h)(0x57161157)
 I (..\user\core_cm3.h)(0x49D96948)
 I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x50F96150)
@@ -17,9 +17,6 @@ I (..\FWlib\inc\stm32f10x_usart.h)(0x49D9694A)
 I (..\FWlib\inc\misc.h)(0x49D9694A)
 I (..\user\stm32f10x_it.h)(0x49D96952)
 I (..\user\sdcard.h)(0x51553C6E)
-I (..\fatfs\ff.h)(0x5175E1C2)
-I (..\fatfs\integer.h)(0x4B1C6CF4)
-I (..\fatfs\diskio.h)(0x498E6E6C)
 I (..\user\delay.h)(0x4F655F94)
 I (C:\Keil\ARM\ARMCC\bin\..\include\string.h)(0x50F96150)
 I (C:\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x56527299)
@@ -33,7 +30,7 @@ I (..\user\flows.h)(0x51A0AD94)
 I (..\user\ds1302.h)(0x51934526)
 I (..\user\sbus.h)(0x57162957)
 F (..\user\main.c)(0x5718B2A8)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\fatfs -I..\FWlib\inc -I..\user -I..\user -I..\user\pic_codec -I..\IICLIB -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F10x -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD -DUSE_STM3210B_EVAL -o "..\Output\main.o" --omf_browse "..\Output\main.crf" --depend "..\Output\main.d")
-I (..\user\include.h)(0x57161E57)
+I (..\user\include.h)(0x5718D1FB)
 I (..\user\stm32f10x.h)(0x57161157)
 I (..\user\core_cm3.h)(0x49D96948)
 I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x50F96150)
@@ -50,9 +47,6 @@ I (..\FWlib\inc\stm32f10x_usart.h)(0x49D9694A)
 I (..\FWlib\inc\misc.h)(0x49D9694A)
 I (..\user\stm32f10x_it.h)(0x49D96952)
 I (..\user\sdcard.h)(0x51553C6E)
-I (..\fatfs\ff.h)(0x5175E1C2)
-I (..\fatfs\integer.h)(0x4B1C6CF4)
-I (..\fatfs\diskio.h)(0x498E6E6C)
 I (..\user\delay.h)(0x4F655F94)
 I (C:\Keil\ARM\ARMCC\bin\..\include\string.h)(0x50F96150)
 I (C:\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x56527299)
@@ -67,7 +61,7 @@ I (..\user\ds1302.h)(0x51934526)
 I (..\user\sbus.h)(0x57162957)
 I (..\user\ng_gpio.h)(0x548A851F)
 F (..\user\delay.c)(0x51AF1A6A)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\fatfs -I..\FWlib\inc -I..\user -I..\user -I..\user\pic_codec -I..\IICLIB -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F10x -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD -DUSE_STM3210B_EVAL -o "..\Output\delay.o" --omf_browse "..\Output\delay.crf" --depend "..\Output\delay.d")
-I (..\user\include.h)(0x57161E57)
+I (..\user\include.h)(0x5718D1FB)
 I (..\user\stm32f10x.h)(0x57161157)
 I (..\user\core_cm3.h)(0x49D96948)
 I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x50F96150)
@@ -84,9 +78,6 @@ I (..\FWlib\inc\stm32f10x_usart.h)(0x49D9694A)
 I (..\FWlib\inc\misc.h)(0x49D9694A)
 I (..\user\stm32f10x_it.h)(0x49D96952)
 I (..\user\sdcard.h)(0x51553C6E)
-I (..\fatfs\ff.h)(0x5175E1C2)
-I (..\fatfs\integer.h)(0x4B1C6CF4)
-I (..\fatfs\diskio.h)(0x498E6E6C)
 I (..\user\delay.h)(0x4F655F94)
 I (C:\Keil\ARM\ARMCC\bin\..\include\string.h)(0x50F96150)
 I (C:\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x56527299)
@@ -99,9 +90,9 @@ I (..\user\exit.h)(0x518DAF36)
 I (..\user\flows.h)(0x51A0AD94)
 I (..\user\ds1302.h)(0x51934526)
 I (..\user\sbus.h)(0x57162957)
-F (..\user\include.h)(0x57161E57)()
+F (..\user\include.h)(0x5718D1FB)()
 F (..\user\USART.c)(0x57189608)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\fatfs -I..\FWlib\inc -I..\user -I..\user -I..\user\pic_codec -I..\IICLIB -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F10x -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD -DUSE_STM3210B_EVAL -o "..\Output\usart.o" --omf_browse "..\Output\usart.crf" --depend "..\Output\usart.d")
-I (..\user\include.h)(0x57161E57)
+I (..\user\include.h)(0x5718D1FB)
 I (..\user\stm32f10x.h)(0x57161157)
 I (..\user\core_cm3.h)(0x49D96948)
 I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x50F96150)
@@ -118,9 +109,6 @@ I (..\FWlib\inc\stm32f10x_usart.h)(0x49D9694A)
 I (..\FWlib\inc\misc.h)(0x49D9694A)
 I (..\user\stm32f10x_it.h)(0x49D96952)
 I (..\user\sdcard.h)(0x51553C6E)
-I (..\fatfs\ff.h)(0x5175E1C2)
-I (..\fatfs\integer.h)(0x4B1C6CF4)
-I (..\fatfs\diskio.h)(0x498E6E6C)
 I (..\user\delay.h)(0x4F655F94)
 I (C:\Keil\ARM\ARMCC\bin\..\include\string.h)(0x50F96150)
 I (C:\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x56527299)
@@ -134,7 +122,7 @@ I (..\user\flows.h)(0x51A0AD94)
 I (..\user\ds1302.h)(0x51934526)
 I (..\user\sbus.h)(0x57162957)
 F (..\user\sbus.c)(0x571895EA)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\fatfs -I..\FWlib\inc -I..\user -I..\user -I..\user\pic_codec -I..\IICLIB -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F10x -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD -DUSE_STM3210B_EVAL -o "..\Output\sbus.o" --omf_browse "..\Output\sbus.crf" --depend "..\Output\sbus.d")
-I (..\user\include.h)(0x57161E57)
+I (..\user\include.h)(0x5718D1FB)
 I (..\user\stm32f10x.h)(0x57161157)
 I (..\user\core_cm3.h)(0x49D96948)
 I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x50F96150)
@@ -151,9 +139,6 @@ I (..\FWlib\inc\stm32f10x_usart.h)(0x49D9694A)
 I (..\FWlib\inc\misc.h)(0x49D9694A)
 I (..\user\stm32f10x_it.h)(0x49D96952)
 I (..\user\sdcard.h)(0x51553C6E)
-I (..\fatfs\ff.h)(0x5175E1C2)
-I (..\fatfs\integer.h)(0x4B1C6CF4)
-I (..\fatfs\diskio.h)(0x498E6E6C)
 I (..\user\delay.h)(0x4F655F94)
 I (C:\Keil\ARM\ARMCC\bin\..\include\string.h)(0x50F96150)
 I (C:\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x56527299)
@@ -530,7 +515,7 @@ I (..\FWlib\inc\stm32f10x_spi.h)(0x49D9694A)
 I (..\FWlib\inc\stm32f10x_usart.h)(0x49D9694A)
 I (..\FWlib\inc\misc.h)(0x49D9694A)
 F (..\user\BSP.c)(0x5715FABF)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\fatfs -I..\FWlib\inc -I..\user -I..\user -I..\user\pic_codec -I..\IICLIB -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F10x -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD -DUSE_STM3210B_EVAL -o "..\Output\bsp.o" --omf_browse "..\Output\bsp.crf" --depend "..\Output\bsp.d")
-I (..\user\include.h)(0x57161E57)
+I (..\user\include.h)(0x5718D1FB)
 I (..\user\stm32f10x.h)(0x57161157)
 I (..\user\core_cm3.h)(0x49D96948)
 I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x50F96150)
@@ -547,9 +532,6 @@ I (..\FWlib\inc\stm32f10x_usart.h)(0x49D9694A)
 I (..\FWlib\inc\misc.h)(0x49D9694A)
 I (..\user\stm32f10x_it.h)(0x49D96952)
 I (..\user\sdcard.h)(0x51553C6E)
-I (..\fatfs\ff.h)(0x5175E1C2)
-I (..\fatfs\integer.h)(0x4B1C6CF4)
-I (..\fatfs\diskio.h)(0x498E6E6C)
 I (..\user\delay.h)(0x4F655F94)
 I (C:\Keil\ARM\ARMCC\bin\..\include\string.h)(0x50F96150)
 I (C:\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x56527299)

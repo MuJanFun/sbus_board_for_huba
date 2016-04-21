@@ -5,6 +5,7 @@
 *.obj
 *.elf
 *.map
+*.dep
 
 # Precompiled Headers
 *.gch
