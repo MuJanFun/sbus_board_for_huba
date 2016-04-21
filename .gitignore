@@ -4,6 +4,7 @@
 *.ko
 *.obj
 *.elf
+*.map
 
 # Precompiled Headers
 *.gch
