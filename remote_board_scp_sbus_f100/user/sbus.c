@@ -83,7 +83,7 @@ int sbus_decode( uint16_t *values, uint8_t *frame_cache )
 	{
 		for(i=0;i<7;i++)
 		{
-//			values[i] = 0;
+			values[i] = 0;
 		}
 	}
 

@@ -121,7 +121,7 @@ I (..\user\exit.h)(0x518DAF36)
 I (..\user\flows.h)(0x51A0AD94)
 I (..\user\ds1302.h)(0x51934526)
 I (..\user\sbus.h)(0x57162957)
-F (..\user\sbus.c)(0x57203248)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\fatfs -I..\FWlib\inc -I..\user -I..\user -I..\user\pic_codec -I..\IICLIB -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F10x -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD -DUSE_STM3210B_EVAL -o "..\Output\sbus.o" --omf_browse "..\Output\sbus.crf" --depend "..\Output\sbus.d")
+F (..\user\sbus.c)(0x5791DE4A)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\fatfs -I..\FWlib\inc -I..\user -I..\user -I..\user\pic_codec -I..\IICLIB -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F10x -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD -DUSE_STM3210B_EVAL -o "..\Output\sbus.o" --omf_browse "..\Output\sbus.crf" --depend "..\Output\sbus.d")
 I (..\user\include.h)(0x5718D1FB)
 I (..\user\stm32f10x.h)(0x57161157)
 I (..\user\core_cm3.h)(0x49D96948)
