@@ -38,6 +38,8 @@ static const struct sbus_bit_pick sbus_decoder[16][3] = {
 /* sbus decode */
 int sbus_decode( uint16_t *values, uint8_t *frame_cache )
 {
+	static unsigned int frame_lost_cnt = 0;
+	static unsigned char flag_lost = 0;
 	unsigned channel = 0;
 	unsigned value = 0;
 	unsigned piece = 0;
@@ -47,6 +49,16 @@ int sbus_decode( uint16_t *values, uint8_t *frame_cache )
 	
 //	OS_CRITICAL_ENTER();
 
+	if(!(frame_cache[0] == 0x0f && frame_cache[24] == 0))
+	{
+		for(i=0;i<7;i++)
+		{
+			values[i] = 0;
+		}
+		return 0;
+	}
+	
+	
 	/* use the decoder matrix to extract channel data */
 	for (channel = 0; channel < SBUS_CHANNEL_DEFAULT; channel++)
 	{
@@ -78,13 +90,21 @@ int sbus_decode( uint16_t *values, uint8_t *frame_cache )
 		}
 	}
 	
-	
 	if(frame_cache[23] & (1 << 2))
 	{
-		for(i=0;i<7;i++)
+		frame_lost_cnt++;
+		if( frame_lost_cnt > 20 || flag_lost )
 		{
-			values[i] = 0;
+			flag_lost = 1;
+			for(i=0;i<7;i++)
+			{
+				values[i] = 0;
+			}
 		}
+	}else
+	{
+		frame_lost_cnt = 0;
+		flag_lost = 0;
 	}
 
 //	OS_CRITICAL_EXIT_NO_SCHED();
